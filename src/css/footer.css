@@ -1,0 +1,12 @@
+.footer {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  color: #ffd400;
+  background-color: black; }
+  .footer p {
+    text-transform: uppercase; }
+    .footer p .auteur {
+      color: white; }
+
+/*# sourceMappingURL=footer.css.map */

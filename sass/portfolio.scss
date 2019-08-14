@@ -1,0 +1,208 @@
+#portfolio {
+  .portfolio-list {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    .modal-90w {
+      width: 90vw !important;
+    }
+    ul {
+      padding: 0;
+      margin: 0 auto;
+      text-align: left;
+    }
+    li {
+      display: inline-block;
+      text-align: left;
+      margin: 1%;
+      .vignette {
+        position: relative;
+        button {
+          border: none;
+          margin: 0;
+          padding: 0;
+          h4 {
+            position: absolute;
+            color: white;
+            margin: 0 0 0 20px;
+            bottom: 0;
+            z-index: 5;
+            opacity: 0;
+            transition: all .6s linear;
+            -o-transition: all .6s linear;
+            -moz-transition: all .6s linear;
+            -webkit-transition: all .6s linear;
+          }
+          .filtre {
+            position: absolute;
+            display: block;
+            margin: 0;
+            background-color: black;
+            width: 22vw;
+            height: 100%;
+            opacity: 0;
+            transition: all .6s linear;
+            -o-transition: all .6s linear;
+            -moz-transition: all .6s linear;
+            -webkit-transition: all .6s linear;
+          }
+          img {
+            width: 22vw;
+          }
+        }
+        button:hover {
+          .filtre {
+            opacity: 0.7;
+            transition: all 0.3s ease-in;
+            -o-transition: all 0.3s ease-in;
+            -moz-transition: all 0.3s ease-in;
+            -webkit-transition: all 0.3s ease-in;
+          }
+          h4 {
+            opacity: 1;
+            bottom: 50%;
+            transition: all 0.3s ease-in;
+            -o-transition: all 0.3s ease-in;
+            -moz-transition: all 0.3s ease-in;
+            -webkit-transition: all 0.3s ease-in;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1200px) {
+    h4 {
+    }
+    .filtre {
+      width: 30vw !important;
+    }
+    img {
+      width: 30vw !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .portfolio-list {
+      li {
+        margin: 2%;
+        h4 {
+        }
+        .filtre {
+          width: 44vw !important;
+        }
+        img {
+          width: 44vw !important;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    .portfolio-list {
+      li {
+        margin: 3%;
+        h4 {
+        }
+        .filtre {
+          width: 90vw !important;
+        }
+        img {
+          width: 90vw !important;
+        }
+      }
+    }
+  }
+}
+.modal-dialog {
+  margin: 3% 0 3% 4% !important;
+  .modal-content {
+    width: 90vw !important;
+    margin: 0 !important;
+    padding: 40px 5%;
+    border: none;
+    .modal-header {
+      border: none;
+      padding: 0;
+      h3 {
+        font-size: 30px;
+        text-align: left;
+      }
+    }
+    .modal-body {
+      padding: 0;
+      p {
+        font-size: 16px;
+        font-family: Fibra-One-Thin;
+      }
+      .categories {
+        margin: 30px 0 50px 0;
+        padding: 0;
+        font-size: 12px;
+        font-family: Fibra-One-Regular;
+        li {
+          display: inline-block;
+          margin: 0 20px 0 0;
+          img {
+            width: 20px;
+            margin: 0 5px 0 0;
+          }
+        }
+      }
+      .project-images {
+        margin: 0;
+        padding: 0;
+        li {
+          list-style-type: none;
+          img {
+            width: 80vw;
+            margin: 0 0 50px 3%;
+          }
+        }
+      }
+    }
+    .modal-footer {
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+    .close {
+      border: none;
+      background-color: none;
+      img {
+        width: 35px;
+      }
+    }
+  }
+}
+
+@media(max-width: 900px) {
+  .modal-dialog {
+    .modal-body {
+      .project-images {
+        img {
+          margin: 0 0 50px 2% !important;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 600px) {
+  .modal-dialog {
+    margin: 3% 0 3% 3% !important;
+    .modal-body {
+      .project-images {
+        img {
+          margin: 0 0 50px 1% !important;
+        }
+      }
+    }
+  }
+}
+
+.modal-backdrop {
+  opacity: 1 !important;
+  background-color: white !important;
+}
+

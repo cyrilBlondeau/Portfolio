@@ -1,0 +1,26 @@
+.banner {
+  top: 100px;
+  display: block;
+  height: 45vw;
+  background-image: url("../img/banner.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 900px) {
+  .banner {
+    height: 350px;
+  }
+}
+@media (max-width: 650px) {
+  .banner {
+    height: 275px;
+  }
+}
+@media (max-width: 450px) {
+  .banner {
+    height: 180px;
+  }
+}
+
+/*# sourceMappingURL=banner.css.map */

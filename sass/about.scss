@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Fibra-One-UltraLight;
+  src: url(../fonts/Fibra-One-UltraLight.otf);
+}
+
+.about {
+  overflow: hidden;
+  .portrait {
+    display: block;
+    padding: 0;
+    background-color: black;
+    img {
+      width: 40vw;
+    }
+  }
+  .about-content {
+    display: block;
+    background-color: black;
+    text-align: left;
+    padding: 5%;
+    .about-content-description {
+      vertical-align:middle;
+      display:inline-block;
+    }
+    h2 {
+      margin: 30px 0 30px 0;
+      text-align: left;
+      color: #ffd400;
+    }
+    p {
+      color: white;
+      font-family: Fibra-One-UltraLight;
+    }
+    
+  }
+}
+
+@media (max-width: 1040px) {
+  .portrait {
+    overflow: hidden;
+    img {
+      width: 60vw !important;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .portrait {
+    overflow: hidden;
+    img {
+      width: 100vw !important;
+    }
+  }
+  .about-content {
+    padding: 10% !important;
+  }
+}
