@@ -1,26 +1,22 @@
 .banner {
   top: 100px;
   display: block;
-  height: 45vw;
+  height: 580px;
   background-image: url("../img/banner.svg");
   background-position: center;
-  background-size: cover;
-}
+  background-size: cover; }
 
+@media (max-width: 1200px) {
+  .banner {
+    height: 500px; } }
 @media (max-width: 900px) {
   .banner {
-    height: 350px;
-  }
-}
+    height: 350px; } }
 @media (max-width: 650px) {
   .banner {
-    height: 275px;
-  }
-}
+    height: 275px; } }
 @media (max-width: 450px) {
   .banner {
-    height: 180px;
-  }
-}
+    height: 180px; } }
 
 /*# sourceMappingURL=banner.css.map */

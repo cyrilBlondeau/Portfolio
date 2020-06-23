@@ -1,0 +1,174 @@
+{
+   "services":[
+      {
+         "image":"http://cyril-blondeau.com/img/identite.svg",
+         "titre":"Identité visuelle",
+         "description":"Création d’un logo pour votre société, ou modernisation de l’existant. Création d’une charte graphique cohérente pour valoriser l’image de votre société. Discutons-en, et je réaliserai une communication visuelle qui servira au mieux votre image."
+      },
+      {
+         "image":"http://cyril-blondeau.com/img/web.svg",
+         "titre":"Web design",
+         "description":"Besoin d’une présence sur le web ? Je crée votre site internet, adapté à tous les appareils (ordinateur, tablette, smartphone), en réfléchissant en amont à son ergonomie et son expérience utilisateur. Je déclinerai une charte graphique adaptée pour le web."
+      },
+      {
+         "image":"http://cyril-blondeau.com/img/print.svg",
+         "titre":"Print",
+         "description":"Création de tous les supports de communication pour véhiculer l’image de votre entreprise : Cartes de visites, brochures, flyers… qui respectent au mieux votre ligne graphique."
+      }
+   ],
+   "portfolio":[
+      { 
+         "vignette":"http://cyril-blondeau.com/img/vignettes/mm-print.jpg",
+         "client":"Mister Matériaux",
+         "categorie":["Identité visuelle", "Print"],
+         "description":"Mister Matériaux est un site de vente d'outils et de matériaux de construction. Création de l'indentité visuelle et des supports de communication",
+         "images": [
+            "http://cyril-blondeau.com/img/portfolio/mm1.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/mm2.svg", 
+            "http://cyril-blondeau.com/img/portfolio/mm3.jpg"
+         ]
+      },
+      { 
+         "vignette":"http://cyril-blondeau.com/img/vignettes/mm-web.jpg",
+         "client":"Mister Matériaux",
+         "categorie":["Web"],
+         "description":"Mister Matériaux est un site de vente d'outils et de matériaux de construction. Création graphique du site internet.",
+         "images": [
+            "http://cyril-blondeau.com/img/portfolio/mm-web1.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/mm-web2.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/mm-web3.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/mm-web4.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/mm-web5.jpg"
+         ]
+      },
+      { 
+         "vignette":"http://cyril-blondeau.com/img/vignettes/m-chien.jpg",
+         "client":"Monsieur Chien & Cie",
+         "categorie":["Print"],
+         "description":"Monsieur Chien & Cie est une marque de friandises bio pour animaux de compagnie, à cuire soi-même.",
+         "images": [
+            "http://cyril-blondeau.com/img/portfolio/m-chien1.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/m-chien3.jpg"
+         ]
+      },
+      { 
+         "vignette":"http://cyril-blondeau.com/img/vignettes/vibel.jpg",
+         "client":"Vibel Nature",
+         "categorie":["Web"],
+         "description":"Projet de site web pour Vibel Nature. Vibel Nature est une marque française de mobilier évolutif pour enfants.",
+         "images": [
+            "http://cyril-blondeau.com/img/portfolio/vibel1.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/vibel2.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/vibel3.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/vibel4.jpg"
+         ]
+      },
+      { 
+         "vignette":"http://cyril-blondeau.com/img/vignettes/bed-and-ronron.jpg",
+         "client":"Bed & Ronron",
+         "categorie":["Identité visuelle"],
+         "description":"Création de l'identité visuelle pour une hôtel pour chats.",
+         "images": [
+            "http://cyril-blondeau.com/img/portfolio/bed-and-ronron.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/bed-and-ronron.svg"
+         ]
+      },
+      { 
+         "vignette":"http://cyril-blondeau.com/img/vignettes/europages.jpg",
+         "client":"Europages",
+         "categorie":["Web", "Mobile"],
+         "description":"Europages est un annuaire d’entreprises en ligne destiné aux professionnels, disponible en 26 langues. Création de la maquette du site internet et des autres sites du groupe. Animation du site avec la création de bannières promotionnelles.",
+         "images": [
+            "http://cyril-blondeau.com/img/portfolio/europages1.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/europages2.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/europages3.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/europages4.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/europages5.jpg"
+         ]
+      },
+      { 
+         "vignette":"http://cyril-blondeau.com/img/vignettes/zanies.jpg",
+         "client":"Zanies",
+         "categorie":["Identité visuelle", "Print", "Web"],
+         "description":"Marque d'objets de décoration et d'articles de papeterie fantaisie.",
+         "images": [
+            "http://cyril-blondeau.com/img/portfolio/zanies1.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/zanies2.svg", 
+            "http://cyril-blondeau.com/img/portfolio/zanies3.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/zanies4.jpg"
+         ]
+      },
+      { 
+         "vignette":"http://cyril-blondeau.com/img/vignettes/bnsa.jpg",
+         "client":"BNSA",
+         "categorie":["Web"],
+         "description":"Projet de refonte du site internet du BNSA (Banque Numérique du Savoir d'Aquitaine).",
+         "images": [
+            "http://cyril-blondeau.com/img/portfolio/bnsa1.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/bnsa2.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/bnsa3.jpg"
+         ]
+      },
+      { 
+         "vignette":"http://cyril-blondeau.com/img/vignettes/becarre.jpg",
+         "client":"Bécarré Immobilier",
+         "categorie":["Identité visuelle", "Print"],
+         "description":"Becarré est un promoteur immobilier basé à Paris. Création de l’identité visuelle et des supports de communication, carte de visite, papier en-tête, brochure promotionnelles.",
+         "images": [
+            "http://cyril-blondeau.com/img/portfolio/becarre1.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/becarre2.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/becarre3.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/becarre4.jpg"
+         ]
+      },
+      { 
+         "vignette":"http://cyril-blondeau.com/img/vignettes/elissance.jpg",
+         "client":"Elissance Paris",
+         "categorie":["Identité visuelle", "Packaging"],
+         "description":"Création de l'identité visuelle et habillage de packaging pour une marque de cosmétique française.",
+         "images": [
+            "http://cyril-blondeau.com/img/portfolio/elissance1.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/elissance2.svg", 
+            "http://cyril-blondeau.com/img/portfolio/elissance3.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/elissance4.jpg"
+         ]
+      },
+      { 
+         "vignette":"http://cyril-blondeau.com/img/vignettes/exo-move.jpg",
+         "client":"Exo'Move",
+         "categorie":["Identité visuelle", "Print"],
+         "description":"Identité visuelle pour une association sportive.",
+         "images": [
+            "http://cyril-blondeau.com/img/portfolio/exo-move1.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/exo-move2.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/exo-move2.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/exo-move4.jpg", 
+            "http://cyril-blondeau.com/img/portfolio/exo-move5.jpg"
+         ]
+      },
+      { 
+         "vignette":"http://cyril-blondeau.com/img/vignettes/basic-threads.jpg",
+         "client":"Basic Threads",
+         "categorie":["Identité visuelle", "Print"],
+         "description":"Identité visuelle et supports de communication pour une marque de prêt-à-porter américaine.",
+         "images": [
+         "http://cyril-blondeau.com/img/portfolio/basic-threads1.jpg", 
+         "http://cyril-blondeau.com/img/portfolio/basic-threads2.jpg", 
+         "http://cyril-blondeau.com/img/portfolio/basic-threads3.jpg", 
+         "http://cyril-blondeau.com/img/portfolio/basic-threads4.jpg", 
+         "http://cyril-blondeau.com/img/portfolio/basic-threads5.jpg"
+         ]
+      },
+      { 
+         "vignette":"http://cyril-blondeau.com/img/vignettes/nordic-star.jpg",
+         "client":"Nordic Star Design",
+         "categorie":["Identité visuelle", "Print"],
+         "description":"Création de l'identité visuelle et des supports de communication pour une agence de conseil en communication.",
+         "images": [
+         "http://cyril-blondeau.com/img/portfolio/nordic-star1.jpg", 
+         "http://cyril-blondeau.com/img/portfolio/nordic-star2.jpg", 
+         "http://cyril-blondeau.com/img/portfolio/nordic-star3.jpg"
+         ]
+      }
+   ]
+}

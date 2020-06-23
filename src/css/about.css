@@ -1,42 +1,83 @@
 @font-face {
   font-family: Fibra-One-UltraLight;
   src: url(../fonts/Fibra-One-UltraLight.otf); }
-.about {
+#about {
   overflow: hidden; }
-  .about .portrait {
+  #about .portrait {
     display: block;
     padding: 0;
-    background-color: black; }
-    .about .portrait img {
-      width: 40vw; }
-  .about .about-content {
+    background-color: black;
+    overflow: hidden;
+    width: 100vw; }
+    #about .portrait img {
+      width: 100vw; }
+  #about .about-content {
     display: block;
     background-color: black;
     text-align: left;
-    padding: 5%; }
-    .about .about-content .about-content-description {
-      vertical-align: middle;
-      display: inline-block; }
-    .about .about-content h2 {
-      margin: 30px 0 30px 0;
-      text-align: left;
-      color: #ffd400; }
-    .about .about-content p {
-      color: white;
-      font-family: Fibra-One-UltraLight; }
+    padding: 10% 8% 4% 10%; }
+    #about .about-content .cadre {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      border: solid 1px #ffd400;
+      padding: 10% 0 10% 0; }
+      #about .about-content .cadre .about-content-description {
+        display: block;
+        background-color: black;
+        margin: 0 0 0 -5%;
+        padding: 0 10% 0 0; }
+        #about .about-content .cadre .about-content-description h2 {
+          margin: 20px 0 20px 0;
+          text-align: left;
+          color: #ffd400; }
+        #about .about-content .cadre .about-content-description h3 {
+          color: white;
+          text-align: left;
+          margin: 0 0 30px 0; }
+        #about .about-content .cadre .about-content-description p {
+          color: white;
+          font-family: Fibra-One-UltraLight; }
 
-@media (max-width: 1040px) {
+@media (min-width: 768px) {
   .portrait {
-    overflow: hidden; }
+    overflow: hidden;
+    width: 35vw !important; }
     .portrait img {
-      width: 60vw !important; } }
-@media (max-width: 767px) {
-  .portrait {
-    overflow: hidden; }
-    .portrait img {
-      width: 100vw !important; }
+      width: 70vw !important;
+      margin: 0 0 0 -30%; }
 
   .about-content {
-    padding: 10% !important; } }
+    display: block;
+    background-color: black;
+    text-align: left;
+    padding: 4% 8% 4% 5% !important; }
+    .about-content .cadre {
+      padding: 0 !important; }
+      .about-content .cadre .about-content-description {
+        display: block;
+        background-color: black;
+        margin: 0 0 0 -5%;
+        padding: 0 10% 0 0; } }
+@media (min-width: 900px) {
+  .portrait {
+    overflow: hidden;
+    width: 35vw !important; }
+    .portrait img {
+      width: 60vw !important;
+      margin: 0 0 0 -15%; } }
+@media (min-width: 1050px) {
+  .portrait {
+    overflow: hidden;
+    width: 30vw !important; }
+    .portrait img {
+      width: 45vw !important;
+      margin: 0; } }
+@media (min-width: 2000px) {
+  .portrait {
+    overflow: hidden; }
+    .portrait img {
+      width: 35vw !important;
+      margin: 0; } }
 
 /*# sourceMappingURL=about.css.map */

@@ -1,0 +1,19 @@
+{
+  "services": [
+    {
+      "image": "./img/identite.svg",
+      "titre": "Identité visuelle",
+      "description": "Vous avez besoin d’un logo pour votre société, ou de moderniser l’existant. Vous avez besoin d’une charte graphique pour valoriser l’image de votre société. Discutons-en, et je réaliserai une communication visuelle qui représentera au mieux votre société."
+    },
+    {
+      "image": "./img/web.svg",
+      "titre": "Web design",
+      "description": "Vous avez besoin d’une présence sur le web, je crée votre site internet, en réfléchissant en amont à son ergonomie et son expérience utilisateur. Je déclinerai une charte graphique adaptée pour le web."
+    },
+    {
+      "image": "./img/print.svg",
+      "titre": "Communication visuelle",
+      "description": "Vous avez besoin de supports de communication, cartes de visites, brochures, flyers… qui respectent au mieux votre ligne graphique. Un petit tour sur Photoshop, Illustrator ou InDesign et c’est parti !"
+    }
+  ]
+}

@@ -19,7 +19,7 @@ function Navigation() {
               <AnchorLink offset='100' href='#services'>Services</AnchorLink>
               <AnchorLink offset='73' href='#about'>à propos</AnchorLink>
               <AnchorLink offset='100' href='#portfolio'>Portfolio</AnchorLink>
-              <AnchorLink offset='100' href='#contact'>Contact</AnchorLink>
+              <AnchorLink offset='65' href='#contact'>Contact</AnchorLink>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

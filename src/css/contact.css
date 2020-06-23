@@ -1,60 +1,52 @@
-.contact {
-  margin: 0; }
-  .contact .contact-form {
-    padding: 30px 0 0 40px;
-    margin: 0 0 40px 0; }
-    .contact .contact-form ul {
-      padding: 0; }
-      .contact .contact-form ul li {
-        display: inline-block;
-        vertical-align: middle;
-        margin: 0 20px 0 0;
-        font-size: 12px; }
-        .contact .contact-form ul li img {
-          height: 50px; }
-    .contact .contact-form form {
-      padding: 0; }
-      .contact .contact-form form input, .contact .contact-form form textarea {
-        padding: 10px;
-        margin: 30px 5% 0 0;
-        border: none;
-        border-bottom: solid 1px black;
-        font-size: 12px; }
-      .contact .contact-form form input {
-        width: 45%; }
-      .contact .contact-form form input::placeholder, .contact .contact-form form textarea::placeholder {
-        color: gray; }
-      .contact .contact-form form textarea {
-        width: 95%;
-        height: 12vw; }
-      .contact .contact-form form .submit {
-        border: none;
-        width: 30%;
-        margin: 30px 0 0 0;
-        background-color: #ffd400;
-        font-family: Fibra-One-Heavy;
-        text-transform: uppercase; }
-      .contact .contact-form form .submit:hover {
-        background-color: black;
-        color: #ffd400;
-        transition: all 0.3s ease-in;
-        -o-transition: all 0.3s ease-in;
-        -moz-transition: all 0.3s ease-in;
-        -webkit-transition: all 0.3s ease-in; }
-  .contact .contact-location {
-    display: block;
-    margin: 0;
-    padding: 30px;
-    background-color: #ffd400;
-    text-align: center; }
-    .contact .contact-location img {
-      width: 25vw;
-      margin: 30px 0 0 0; }
+#contact {
+  margin: 75px 0 0 0;
+  padding: 20px 0 0 0;
+  background-color: #ffd400;
+}
+#contact .contact-form {
+  padding: 40px;
+  margin: 0;
+}
+#contact .contact-form .contact-infos {
+  padding: 0 0 0 5%;
+}
+#contact .contact-form .contact-infos ul {
+  padding: 0;
+}
+#contact .contact-form .contact-infos ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 20px 0 0;
+  font-size: 14px;
+}
+#contact .contact-form .contact-infos ul li img {
+  height: 40px;
+}
+#contact .contact-location {
+  display: block;
+  margin: 0 0 50px 0;
+  padding: 0;
+  text-align: center;
+}
+#contact .contact-location img {
+  width: 37vw;
+  margin: 30px 0 0 0;
+}
 
+@media (max-width: 1400px) {
+  #contact .contact-location img {
+    width: 45vw;
+  }
+}
+@media (max-width: 992px) {
+  #contact .contact-location img {
+    width: 75vw;
+  }
+}
 @media (max-width: 650px) {
-  .contact .contact-form form input {
-    width: 95%; }
-  .contact .contact-form form textarea {
-    height: 20vw; } }
+  #contact .contact-location img {
+    width: 90vw;
+  }
+}
 
 /*# sourceMappingURL=contact.css.map */
